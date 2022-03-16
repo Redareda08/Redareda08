@@ -1,4 +1,4 @@
-#Multiplication egyptienne question 3 Hachemi Reda  #
+#Multiplication egyptienne question 3 Hachemi Reda #
 a=int(input())
 
 b=int(input())
