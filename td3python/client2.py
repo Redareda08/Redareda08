@@ -64,7 +64,7 @@ class MainWindow(QWidget):
         else:
             res= self.__query(IP_address,API_key,hostname)
             if res :
-                webbrowser.open("https://www.openstreetmap.org/?mlat=%s" % (res["Latitude"]) + "&mlon=%s" % res["Longitude"] + "#map=12")
+                webbrowser.open("https://www.openstreetmap.org/?mlat=%s" % (res["Lat"]) + "&mlon=%s" % res["Long"] + "#map=12")
 
 
     def __query(self,IP_address,API_key, hostname):
