@@ -1,4 +1,4 @@
-"""from typing import Optional
+from typing import Optional
 from fastapi import FastAPI
 from shodan import Shodan
 
@@ -23,6 +23,6 @@ async def get_ip(ip: str, key: Optional[str] = None):
                 "Country": res["country_name"],
             }
         except Exception as e:
-            return {"Error": str(e)}"""
+            return {"Error": str(e)}
 
 #reda
