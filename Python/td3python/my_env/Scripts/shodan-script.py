@@ -1,4 +1,4 @@
-#!"C:\Users\33751\Desktop\ESIEA\Cours 3A\python\td3python\my_env\Scripts\python.exe"
+#!"C:\Users\33751\Desktop\ESIEA\Cours 3A\python\Python\td3python\my_env\Scripts\python.exe"
 # EASY-INSTALL-ENTRY-SCRIPT: 'shodan==1.27.0','console_scripts','shodan'
 import re
 import sys

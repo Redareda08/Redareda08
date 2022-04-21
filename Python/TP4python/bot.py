@@ -16,7 +16,7 @@ async def on_message(message):
 async def on_ready():
     print("Le bot est prêt !")
 
-@client.event
+"""@client.event
 async def on_member_join(member):
     print(f"L'utilisateur {member.display_name} a rejoint le serveur !")
 
@@ -26,6 +26,6 @@ async def on_message(m):
         number = int(m.content.split()[1])
         messages = await m.channel.history(limit=number + 1).flatten()
         for each_message in messages:
-            await each_message.delete()
+            await each_message.delete()"""
 
-client.run("OTU1NTkwMjU4ODc0MDA3NjAz.Yjj4xw.N4s4BlcqQbD1HaWZ2DLF026Uy2s")
+client.run("OTU1NTkwMjU4ODc0MDA3NjAz.Yjj4xw.AzWYrOfScjEWHOoiwb6cwKT6ouQ")
