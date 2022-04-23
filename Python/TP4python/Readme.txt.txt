@@ -1,0 +1,1 @@
+Le but était de tester si un Ip est valide grace à un bot discord. J'ai tenté de reprendre le shéma du TP3.
