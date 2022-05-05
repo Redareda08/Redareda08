@@ -55,7 +55,7 @@ Avec les méthodes playLikeASoprano et playLikeATenor, les classes sont forcées
 
 
 
-exerice 4 :
+exercice 4 :
 4.7/
 Les interfaces Tenor et Soprano nous permettent de maitriser le comportement des instruments sans implémenter des méthodes qui ne nous intéressent pas, ainsi quand on compile, il ne subsiste aucun soucis avec les méthodes que nous ne voulons pas implémenter.
 
@@ -65,5 +65,11 @@ Pour ajouter des nouveaux instruments il n’y a plus besoin de faire des modifi
 
 b) 
 En modifiant une classe nous n’avons pas le besoin d’en modifier d’autres que celle concernée de base. Il faudra néanmoins créer une nouvelle méthode pour jouer d’une autre manière. Il faudra ensuite créer une interface pour  l’implémenter à l’instrument concerné et implémenter la méthode de l’interface dans la classe de l’instrument.
+
+c) 
+La classe Orchestra est facile à réutiliser car il n’y a pas besoin de la modifier pour composer une autre Music.
+
+4.10/
+Ici les 5 principes SOLID sont respectés, notamment nous pouvons étendre le comportement d’une classe sans la modifier donc ce design correspond au principe Ouvert/Fermé. D’autre part aucune méthode n’est inutile ainsi le principe de Liskov est respecté. Le principe de la responsabilité unique est respecté car ici aucune méthode ne fait plus que ce qu’elle ne doit faire. Les classes de haut   niveau ne dépendent pas des classes de bas niveau et donc le principe des inversions des dépendances est respecté. Pour finir il reste le principe de ségrégation des interfaces qui grâce au fait que les classes ne sont pas forcées d’implémenter des méthodes qui n’ont pas de sens pour les classes alors ce principe est respecté.
 
 
