@@ -55,3 +55,15 @@ Avec les méthodes playLikeASoprano et playLikeATenor, les classes sont forcées
 
 
 
+exerice 4 :
+4.7/
+Les interfaces Tenor et Soprano nous permettent de maitriser le comportement des instruments sans implémenter des méthodes qui ne nous intéressent pas, ainsi quand on compile, il ne subsiste aucun soucis avec les méthodes que nous ne voulons pas implémenter.
+
+4.9/ 
+a) 
+Pour ajouter des nouveaux instruments il n’y a plus besoin de faire des modifications dans les classes, il suffit de les faire hériter d’un type d’instrument et c’est donc plus facile. 
+
+b) 
+En modifiant une classe nous n’avons pas le besoin d’en modifier d’autres que celle concernée de base. Il faudra néanmoins créer une nouvelle méthode pour jouer d’une autre manière. Il faudra ensuite créer une interface pour  l’implémenter à l’instrument concerné et implémenter la méthode de l’interface dans la classe de l’instrument.
+
+
