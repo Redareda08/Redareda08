@@ -1,0 +1,6 @@
+2022-05-18 10:48:35.745 ERROR Erreur des test Singletons
+2022-05-18 10:48:35.792 WARNING Warning des test Singletons 1111
+2022-05-18 10:52:26.398 ERROR Erreur des test Singletons
+2022-05-18 10:52:26.43 WARNING Warning des test Singletons 11112022-05-28 10:52:26.366 ERROR Erreur des test Singletons
+2022-05-28 14:31:34.409 WARNING Warning des test Singletons 1111
+2022-05-28 14:32:21.317 WARNING Mon programme n'agit pas normalement
